@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.env
+.env.local
+registrations.json
+verified-payments.json
+public/uploads
+.DS_Store
