@@ -1,5 +1,5 @@
 import { Phone, MessageCircle, Instagram } from "lucide-react";
-import { PHONE_1, PHONE_2, WHATSAPP_LINK, INSTAGRAM_LINK, TIKTOK_LINK, SOCIAL_HANDLE } from "@/lib/content";
+import { PHONE_1, WHATSAPP_LINK, INSTAGRAM_LINK, TIKTOK_LINK, SOCIAL_HANDLE } from "@/lib/content";
 
 export default function Contact() {
   return (
@@ -21,15 +21,6 @@ export default function Contact() {
               >
                 <span className="flex items-center gap-3 text-lg">
                   <Phone className="w-4 h-4 text-signal" /> {PHONE_1}
-                </span>
-                <span className="text-xs text-white/40 group-hover:text-white transition-colors">CALL</span>
-              </a>
-              <a
-                href={`tel:${PHONE_2.replace(/\s/g, "")}`}
-                className="flex items-center justify-between py-5 group focus-ring"
-              >
-                <span className="flex items-center gap-3 text-lg">
-                  <Phone className="w-4 h-4 text-signal" /> {PHONE_2}
                 </span>
                 <span className="text-xs text-white/40 group-hover:text-white transition-colors">CALL</span>
               </a>

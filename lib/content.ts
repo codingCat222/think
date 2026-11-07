@@ -50,7 +50,7 @@ export const FAQS = [
   },
   {
     q: "How can I contact ThinkUp?",
-    a: "WhatsApp 0806 755 7709, call 0706 520 2865, or follow and message @thinkupinnovationhub on Instagram and TikTok.",
+    a: "Call or WhatsApp 0806 755 7709, or follow and message @thinkupinnovationhub on Instagram and TikTok.",
   },
 ];
 
