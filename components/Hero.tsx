@@ -24,7 +24,7 @@ export default function Hero() {
             </h1>
 
             <p className="mt-8 text-lg text-ink/70 leading-relaxed">
-              A festive celebration of young innovation. Children build their
+              A festive celebration of young innovators. Children build their
               boldest apps, present them live on stage with pride, and play hard
               while they&rsquo;re at it — hosted by ThinkUp Innovation Services.
             </p>
