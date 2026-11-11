@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+
 export const metadata: Metadata = {
   title: "Happy December — Best Kids' Apps Challenge | ThinkUp Innovation Services",
   description:
@@ -18,6 +19,7 @@ export const metadata: Metadata = {
     images: ["/flyer.jpg"],
   },
 };
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">

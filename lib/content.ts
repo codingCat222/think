@@ -23,6 +23,15 @@ export const STEPS = [
   { title: "Present live & win", desc: "Come through on the day, present and demo your app live on stage, play, and win prizes." },
 ];
 
+export const BANK_DETAILS = {
+  accountName: "Adeniyi Kolade",
+  bankName: "First Bank",
+  accountNumber: "2023059519",
+};
+
+export const NOTIFICATION_EMAIL = "thinkupinnovationhub@gmail.com";
+export const NOTIFICATION_WHATSAPP = "2348067557709";
+
 export const FAQS = [
   {
     q: "What is the Happy December Best Kids' Apps Challenge?",
@@ -33,8 +42,12 @@ export const FAQS = [
     a: "Children and teenagers aged 2 to 19 years old! Participants are grouped into four age categories: Ages 2–5 (Tiny Thinkers — Playground & Bouncing Castle), Ages 6–8 (Bright Sparks — Movies & Games), Ages 9–12 (Junior Innovators), and Ages 13–19 (Senior Innovators). Slots are limited, so early registration is encouraged.",
   },
   {
-    q: "How do I register my child and what is the registration fee?",
-    a: "Select your child's age category in the Registration section on this page, complete the registration fee payment via Paystack (₦10,000 for Ages 2–5, ₦15,000 for Ages 6–8, ₦20,000 for Ages 9–12, and ₦25,000 for Ages 13–19), and submit your child's details to secure their spot.",
+    q: "Can I register more than one child?",
+    a: "Yes! You can register multiple children at once across different age categories in a single submission. Simply click '+ Add another child' in the registration form.",
+  },
+  {
+    q: "How do I register and pay?",
+    a: "Select the age category for each child, transfer the total fee to our First Bank account (Adeniyi Kolade — 2023059519), upload your payment proof/receipt, and submit the form. You will also get an instant confirmation link to send your details directly to our WhatsApp.",
   },
   {
     q: "What are the prizes and activities?",
